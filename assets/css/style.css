@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.titles h1{
+    font-weight: 600;
+
+}
+.searchFood{
+    width: 50%;
+}
+
+.spinner{
+    border: 2px solid rgba(0,0,0,.1);
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    border-left-color: yellow;
+    border-top-color: green;
+    border-bottom-color: red;
+    border-right-color: blue;
+    animation: spin 1s linear infinite;
+
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
